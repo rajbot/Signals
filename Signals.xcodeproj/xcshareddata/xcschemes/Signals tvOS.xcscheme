@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "725B76B51C26558F001D04CC"
                BuildableName = "Signals.framework"
-               BlueprintName = "Signals tvOS"
+               BlueprintName = "Signals-tvOS"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "725B76BE1C26558F001D04CC"
-               BuildableName = "SignalsTests tvOS.xctest"
-               BlueprintName = "SignalsTests tvOS"
+               BuildableName = "SignalsTests-tvOS.xctest"
+               BlueprintName = "SignalsTests-tvOS"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "725B76B51C26558F001D04CC"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals tvOS"
+            BlueprintName = "Signals-tvOS"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "725B76B51C26558F001D04CC"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals tvOS"
+            BlueprintName = "Signals-tvOS"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,7 +85,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "725B76B51C26558F001D04CC"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals tvOS"
+            BlueprintName = "Signals-tvOS"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

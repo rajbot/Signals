@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72665B351C212BDB0067DF26"
                BuildableName = "Signals.framework"
-               BlueprintName = "Signals OSX"
+               BlueprintName = "Signals-OSX"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72665B3E1C212BDB0067DF26"
-               BuildableName = "SignalsTests OSX.xctest"
-               BlueprintName = "SignalsTests OSX"
+               BuildableName = "SignalsTests-OSX.xctest"
+               BlueprintName = "SignalsTests-OSX"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -45,7 +45,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72665B351C212BDB0067DF26"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals OSX"
+            BlueprintName = "Signals-OSX"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72665B351C212BDB0067DF26"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals OSX"
+            BlueprintName = "Signals-OSX"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,7 +85,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72665B351C212BDB0067DF26"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals OSX"
+            BlueprintName = "Signals-OSX"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

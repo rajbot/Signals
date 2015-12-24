@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "720D11711A085314003C4361"
                BuildableName = "Signals.framework"
-               BlueprintName = "Signals iOS"
+               BlueprintName = "Signals-iOS"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "720D117C1A085315003C4361"
-               BuildableName = "SignalsTests iOS.xctest"
-               BlueprintName = "SignalsTests iOS"
+               BuildableName = "SignalsTests-iOS.xctest"
+               BlueprintName = "SignalsTests-iOS"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,8 +48,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "720D117C1A085315003C4361"
-               BuildableName = "SignalsTests iOS.xctest"
-               BlueprintName = "SignalsTests iOS"
+               BuildableName = "SignalsTests-iOS.xctest"
+               BlueprintName = "SignalsTests-iOS"
                ReferencedContainer = "container:Signals.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -59,7 +59,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "720D11711A085314003C4361"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals iOS"
+            BlueprintName = "Signals-iOS"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "720D11711A085314003C4361"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals iOS"
+            BlueprintName = "Signals-iOS"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -99,7 +99,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "720D11711A085314003C4361"
             BuildableName = "Signals.framework"
-            BlueprintName = "Signals iOS"
+            BlueprintName = "Signals-iOS"
             ReferencedContainer = "container:Signals.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

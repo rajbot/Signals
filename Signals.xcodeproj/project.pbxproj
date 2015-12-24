@@ -61,7 +61,7 @@
 		720D11721A085314003C4361 /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720D11761A085315003C4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720D11771A085315003C4361 /* Signals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Signals.h; sourceTree = "<group>"; };
-		720D117D1A085315003C4361 /* SignalsTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720D117D1A085315003C4361 /* SignalsTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		720D11831A085315003C4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720D11841A085315003C4361 /* SignalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsTests.swift; sourceTree = "<group>"; };
 		720D118E1A085370003C4361 /* SignalEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalEmitter.swift; sourceTree = "<group>"; };
@@ -70,10 +70,10 @@
 		720D11941A08537E003C4361 /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
 		721E12B21C1E8E1D00CD0CBA /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		725B76B61C26558F001D04CC /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		725B76BF1C26558F001D04CC /* SignalsTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725B76BF1C26558F001D04CC /* SignalsTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		725D2B621B71C916007B83AB /* Signals.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Signals.podspec; sourceTree = "<group>"; };
 		72665B361C212BDB0067DF26 /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72665B3F1C212BDB0067DF26 /* SignalsTests OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72665B3F1C212BDB0067DF26 /* SignalsTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,12 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				720D11721A085314003C4361 /* Signals.framework */,
-				720D117D1A085315003C4361 /* SignalsTests iOS.xctest */,
+				720D117D1A085315003C4361 /* SignalsTests-iOS.xctest */,
 				721E12B21C1E8E1D00CD0CBA /* Signals.framework */,
 				72665B361C212BDB0067DF26 /* Signals.framework */,
-				72665B3F1C212BDB0067DF26 /* SignalsTests OSX.xctest */,
+				72665B3F1C212BDB0067DF26 /* SignalsTests-OSX.xctest */,
 				725B76B61C26558F001D04CC /* Signals.framework */,
-				725B76BF1C26558F001D04CC /* SignalsTests tvOS.xctest */,
+				725B76BF1C26558F001D04CC /* SignalsTests-tvOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,9 +239,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		720D11711A085314003C4361 /* Signals iOS */ = {
+		720D11711A085314003C4361 /* Signals-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 720D11881A085315003C4361 /* Build configuration list for PBXNativeTarget "Signals iOS" */;
+			buildConfigurationList = 720D11881A085315003C4361 /* Build configuration list for PBXNativeTarget "Signals-iOS" */;
 			buildPhases = (
 				720D116D1A085314003C4361 /* Sources */,
 				720D116E1A085314003C4361 /* Frameworks */,
@@ -252,14 +252,14 @@
 			);
 			dependencies = (
 			);
-			name = "Signals iOS";
+			name = "Signals-iOS";
 			productName = Signals;
 			productReference = 720D11721A085314003C4361 /* Signals.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		720D117C1A085315003C4361 /* SignalsTests iOS */ = {
+		720D117C1A085315003C4361 /* SignalsTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 720D118B1A085315003C4361 /* Build configuration list for PBXNativeTarget "SignalsTests iOS" */;
+			buildConfigurationList = 720D118B1A085315003C4361 /* Build configuration list for PBXNativeTarget "SignalsTests-iOS" */;
 			buildPhases = (
 				720D11791A085315003C4361 /* Sources */,
 				720D117A1A085315003C4361 /* Frameworks */,
@@ -270,14 +270,14 @@
 			dependencies = (
 				720D11801A085315003C4361 /* PBXTargetDependency */,
 			);
-			name = "SignalsTests iOS";
+			name = "SignalsTests-iOS";
 			productName = SignalsTests;
-			productReference = 720D117D1A085315003C4361 /* SignalsTests iOS.xctest */;
+			productReference = 720D117D1A085315003C4361 /* SignalsTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		721E12A71C1E8E1D00CD0CBA /* Signals watchOS */ = {
+		721E12A71C1E8E1D00CD0CBA /* Signals-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 721E12AF1C1E8E1D00CD0CBA /* Build configuration list for PBXNativeTarget "Signals watchOS" */;
+			buildConfigurationList = 721E12AF1C1E8E1D00CD0CBA /* Build configuration list for PBXNativeTarget "Signals-watchOS" */;
 			buildPhases = (
 				721E12A81C1E8E1D00CD0CBA /* Sources */,
 				721E12AA1C1E8E1D00CD0CBA /* Frameworks */,
@@ -288,14 +288,14 @@
 			);
 			dependencies = (
 			);
-			name = "Signals watchOS";
+			name = "Signals-watchOS";
 			productName = Signals;
 			productReference = 721E12B21C1E8E1D00CD0CBA /* Signals.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		725B76B51C26558F001D04CC /* Signals tvOS */ = {
+		725B76B51C26558F001D04CC /* Signals-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 725B76C71C26558F001D04CC /* Build configuration list for PBXNativeTarget "Signals tvOS" */;
+			buildConfigurationList = 725B76C71C26558F001D04CC /* Build configuration list for PBXNativeTarget "Signals-tvOS" */;
 			buildPhases = (
 				725B76B11C26558F001D04CC /* Sources */,
 				725B76B21C26558F001D04CC /* Frameworks */,
@@ -306,14 +306,14 @@
 			);
 			dependencies = (
 			);
-			name = "Signals tvOS";
+			name = "Signals-tvOS";
 			productName = tvos;
 			productReference = 725B76B61C26558F001D04CC /* Signals.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		725B76BE1C26558F001D04CC /* SignalsTests tvOS */ = {
+		725B76BE1C26558F001D04CC /* SignalsTests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 725B76CA1C26558F001D04CC /* Build configuration list for PBXNativeTarget "SignalsTests tvOS" */;
+			buildConfigurationList = 725B76CA1C26558F001D04CC /* Build configuration list for PBXNativeTarget "SignalsTests-tvOS" */;
 			buildPhases = (
 				725B76BB1C26558F001D04CC /* Sources */,
 				725B76BC1C26558F001D04CC /* Frameworks */,
@@ -324,14 +324,14 @@
 			dependencies = (
 				725B76C21C26558F001D04CC /* PBXTargetDependency */,
 			);
-			name = "SignalsTests tvOS";
+			name = "SignalsTests-tvOS";
 			productName = tvosTests;
-			productReference = 725B76BF1C26558F001D04CC /* SignalsTests tvOS.xctest */;
+			productReference = 725B76BF1C26558F001D04CC /* SignalsTests-tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		72665B351C212BDB0067DF26 /* Signals OSX */ = {
+		72665B351C212BDB0067DF26 /* Signals-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72665B471C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "Signals OSX" */;
+			buildConfigurationList = 72665B471C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "Signals-OSX" */;
 			buildPhases = (
 				72665B311C212BDB0067DF26 /* Sources */,
 				72665B321C212BDB0067DF26 /* Frameworks */,
@@ -342,14 +342,14 @@
 			);
 			dependencies = (
 			);
-			name = "Signals OSX";
+			name = "Signals-OSX";
 			productName = "Signals OSSX";
 			productReference = 72665B361C212BDB0067DF26 /* Signals.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		72665B3E1C212BDB0067DF26 /* SignalsTests OSX */ = {
+		72665B3E1C212BDB0067DF26 /* SignalsTests-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72665B4A1C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "SignalsTests OSX" */;
+			buildConfigurationList = 72665B4A1C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "SignalsTests-OSX" */;
 			buildPhases = (
 				72665B3B1C212BDB0067DF26 /* Sources */,
 				72665B3C1C212BDB0067DF26 /* Frameworks */,
@@ -360,9 +360,9 @@
 			dependencies = (
 				72665B421C212BDB0067DF26 /* PBXTargetDependency */,
 			);
-			name = "SignalsTests OSX";
+			name = "SignalsTests-OSX";
 			productName = "Signals OSSXTests";
-			productReference = 72665B3F1C212BDB0067DF26 /* SignalsTests OSX.xctest */;
+			productReference = 72665B3F1C212BDB0067DF26 /* SignalsTests-OSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -408,13 +408,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				720D11711A085314003C4361 /* Signals iOS */,
-				72665B351C212BDB0067DF26 /* Signals OSX */,
-				725B76B51C26558F001D04CC /* Signals tvOS */,
-				721E12A71C1E8E1D00CD0CBA /* Signals watchOS */,
-				720D117C1A085315003C4361 /* SignalsTests iOS */,
-				72665B3E1C212BDB0067DF26 /* SignalsTests OSX */,
-				725B76BE1C26558F001D04CC /* SignalsTests tvOS */,
+				720D11711A085314003C4361 /* Signals-iOS */,
+				72665B351C212BDB0067DF26 /* Signals-OSX */,
+				725B76B51C26558F001D04CC /* Signals-tvOS */,
+				721E12A71C1E8E1D00CD0CBA /* Signals-watchOS */,
+				720D117C1A085315003C4361 /* SignalsTests-iOS */,
+				72665B3E1C212BDB0067DF26 /* SignalsTests-OSX */,
+				725B76BE1C26558F001D04CC /* SignalsTests-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -544,17 +544,17 @@
 /* Begin PBXTargetDependency section */
 		720D11801A085315003C4361 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 720D11711A085314003C4361 /* Signals iOS */;
+			target = 720D11711A085314003C4361 /* Signals-iOS */;
 			targetProxy = 720D117F1A085315003C4361 /* PBXContainerItemProxy */;
 		};
 		725B76C21C26558F001D04CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 725B76B51C26558F001D04CC /* Signals tvOS */;
+			target = 725B76B51C26558F001D04CC /* Signals-tvOS */;
 			targetProxy = 725B76C11C26558F001D04CC /* PBXContainerItemProxy */;
 		};
 		72665B421C212BDB0067DF26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72665B351C212BDB0067DF26 /* Signals OSX */;
+			target = 72665B351C212BDB0067DF26 /* Signals-OSX */;
 			targetProxy = 72665B411C212BDB0067DF26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -925,7 +925,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		720D11881A085315003C4361 /* Build configuration list for PBXNativeTarget "Signals iOS" */ = {
+		720D11881A085315003C4361 /* Build configuration list for PBXNativeTarget "Signals-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				720D11891A085315003C4361 /* Debug */,
@@ -934,7 +934,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		720D118B1A085315003C4361 /* Build configuration list for PBXNativeTarget "SignalsTests iOS" */ = {
+		720D118B1A085315003C4361 /* Build configuration list for PBXNativeTarget "SignalsTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				720D118C1A085315003C4361 /* Debug */,
@@ -943,7 +943,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		721E12AF1C1E8E1D00CD0CBA /* Build configuration list for PBXNativeTarget "Signals watchOS" */ = {
+		721E12AF1C1E8E1D00CD0CBA /* Build configuration list for PBXNativeTarget "Signals-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				721E12B01C1E8E1D00CD0CBA /* Debug */,
@@ -952,23 +952,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		725B76C71C26558F001D04CC /* Build configuration list for PBXNativeTarget "Signals tvOS" */ = {
+		725B76C71C26558F001D04CC /* Build configuration list for PBXNativeTarget "Signals-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				725B76C81C26558F001D04CC /* Debug */,
 				725B76C91C26558F001D04CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		725B76CA1C26558F001D04CC /* Build configuration list for PBXNativeTarget "SignalsTests tvOS" */ = {
+		725B76CA1C26558F001D04CC /* Build configuration list for PBXNativeTarget "SignalsTests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				725B76CB1C26558F001D04CC /* Debug */,
 				725B76CC1C26558F001D04CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		72665B471C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "Signals OSX" */ = {
+		72665B471C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "Signals-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72665B481C212BDB0067DF26 /* Debug */,
@@ -977,7 +979,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72665B4A1C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "SignalsTests OSX" */ = {
+		72665B4A1C212BDB0067DF26 /* Build configuration list for PBXNativeTarget "SignalsTests-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72665B4B1C212BDB0067DF26 /* Debug */,
